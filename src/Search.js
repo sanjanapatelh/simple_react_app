@@ -38,7 +38,7 @@ export default class Search extends Component {
   }
 
   mySubmitHandler = (event)=>{
-    
+
   }
 
   render() {
@@ -50,7 +50,7 @@ export default class Search extends Component {
         </Panel.Heading>
         <Panel.Body>
         <form onSubmit={this.mySubmitHandler}>
-               <h1>Hello {this.state.url} {this.state.type}{this.state.country}</h1>
+               <h1>Hello {this.state.url} </h1>
                <p>Enter your name:</p>
                <input
                  type='text'

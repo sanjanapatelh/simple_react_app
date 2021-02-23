@@ -3,7 +3,7 @@ import Panel from 'react-bootstrap/lib/Panel'
 import axios from 'axios'
 
 //This Component is a child Component of Customers Component
-export default class CustomerDetails extends Component {
+export default class BooksDetails extends Component {
 
   constructor(props) {
     super(props);
