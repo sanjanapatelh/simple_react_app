@@ -97,10 +97,9 @@ export default class Customers extends Component {
                name='url'
                onChange={this.myChangeHandler}
              />
+             <br/>
+             <br/>
 
-             <br/>
-             <br/>
-             <input type='submit' />
 
              <Button bsStyle="info" onClick={() => this.setState({selectedCustomer: this.state.temp})}>
 
